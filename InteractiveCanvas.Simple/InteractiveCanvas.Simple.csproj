@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CanvasGraphics\CanvasGraphics.csproj" />
+    <ProjectReference Include="..\InteractiveCanvas\InteractiveCanvas.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CanvasGraphics\CanvasGraphics.csproj" />
+    <ProjectReference Include="..\InteractiveCanvas.Simple\InteractiveCanvas.Simple.csproj" />
+    <ProjectReference Include="..\InteractiveCanvas\InteractiveCanvas.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CustomDialogs">
+      <HintPath>D:\Libraries\.NET Core\CustomDialogs\v1.4.9\dlls\64BitRel\CustomDialogs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
